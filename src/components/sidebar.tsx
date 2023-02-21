@@ -20,7 +20,7 @@ const SideBar = () => {
   );
 };
 
-const SideBarIcon = (icon, text) => (
+const SideBarIcon = (icon: any, text: any) => (
   <div className="sidebar-icon group">
     {icon}
 

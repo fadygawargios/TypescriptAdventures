@@ -3,7 +3,6 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "include": ["**/*.ts", "**/*.tsx"],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
@@ -18,5 +17,7 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
+  "exclude": ["node_modules"],
+  "files": ["placeholder.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import SideBar from "./components/sidebar";
 import ChannelBar from "./components/channelbar";
@@ -9,9 +9,9 @@ export default function App() {
     <div className="flex">
       <SideBar />
       <ChannelBar/>
-      <Routes>
-        <Route path="/counter" element={<Counter />} />
-      </Routes>
+      {/* <Switch>
+        <Route path="/counter" component={Counter} />
+      </Switch> */}
     </div>
 
   );
