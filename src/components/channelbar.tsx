@@ -1,6 +1,8 @@
-const ChannelBar = () => {
+import React from "react";
+
+const ChannelBar: React.FC = () => {
   return (
-    <div className="flex shadow-lg w-80 h-screen ml-16 m-0 bg-gray-800 overflow-hidden">
+    <div className="flex h-screen m-0 ml-16 overflow-hidden bg-gray-800 shadow-lg w-80">
         <div className="text-white w-80">
           <p className="text-center">WHITE</p>
           <div>

@@ -1,9 +1,11 @@
+import React from "react";
 import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
 import { FaFire } from "react-icons/fa";
+import { ObjectType } from "typescript";
 
-const SideBar = () => {
+const SideBar: React.FC = () => {
   return (
-    <div className="fixed top-0 left-0 h-screen w-16 flex flex-col bg-primary text-secondary shadow-lg mr-5">
+    <div className="fixed top-0 left-0 flex flex-col w-16 h-screen mr-5 shadow-lg bg-primary text-secondary">
       <a href="/"> 
         <SideBarIcon icon={<FaFire size="28" />} text="Home" />
       </a>
@@ -20,7 +22,7 @@ const SideBar = () => {
   );
 };
 
-const SideBarIcon = (icon: any, text: any) => (
+const SideBarIcon = ({icon, text}: any) => (
   <div className="sidebar-icon group">
     {icon}
 

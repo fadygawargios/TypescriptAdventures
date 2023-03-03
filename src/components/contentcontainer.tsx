@@ -1,8 +1,9 @@
+import React from "react";
 import Counter from "./functions/counter"; 
 
-const ContentContainer = () => {
+const ContentContainer: React.FC = () => {
   return (
-    <div className="flex flex-col bg-gray-700 m-0 h-screen w-screen overflow-hidden text-white">
+    <div className="flex flex-col w-screen h-screen m-0 overflow-hidden text-white bg-gray-700">
     </div>
   );
 };
