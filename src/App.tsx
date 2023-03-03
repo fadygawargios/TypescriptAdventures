@@ -1,3 +1,4 @@
+import React from "react";
 // import { Router, Route } from "react-router-dom";
 import SideBar from "./components/sidebar"; 
 import ChannelBar from "./components/channelbar";

@@ -1,3 +1,5 @@
+import React from "react";
+
 const ChannelBar: React.FC = () => {
   return (
     <div className="flex h-screen m-0 ml-16 overflow-hidden bg-gray-800 shadow-lg w-80">

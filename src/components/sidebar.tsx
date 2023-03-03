@@ -1,3 +1,4 @@
+import React from "react";
 import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
 import { FaFire } from "react-icons/fa";
 import { ObjectType } from "typescript";

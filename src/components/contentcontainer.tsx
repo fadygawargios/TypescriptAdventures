@@ -1,3 +1,4 @@
+import React from "react";
 import Counter from "./functions/counter"; 
 
 const ContentContainer: React.FC = () => {
