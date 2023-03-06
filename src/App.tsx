@@ -1,8 +1,9 @@
 import React from "react";
-// import { Router, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import SideBar from "./components/sidebar"; 
 import ChannelBar from "./components/channelbar";
-import Counter from "./components/functions/counter";
+import Home from "./components/pages/home";
+// import Counter from "./components/functions/counter";
 
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
     
       <SideBar />
       <ChannelBar/>
-      {/* <Switch>
-        <Route path="/counter" component={<Counter />} />
-      </Switch>  */}
+      <Routes>
+        <Route path="/" element={<Home />}/>
+      </Routes>
     </div>
   );
 }
