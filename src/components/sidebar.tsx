@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import { BsChatLeftTextFill, BsFillLightningFill, BsGearFill, BsFillCalculatorFill } from "react-icons/bs";
-import { FaFire } from "react-icons/fa";
+import { BsChatLeftTextFill, BsFillLightningFill, BsFillCalculatorFill } from "react-icons/bs";
 import { TiHome } from "react-icons/ti";
 import { IoIosSettings } from "react-icons/io";
 // import { ObjectType } from "typescript";
