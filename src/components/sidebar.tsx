@@ -1,23 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
-import { FaFire } from "react-icons/fa";
-import { ObjectType } from "typescript";
+import { BsChatDotsFill, BsFillLightningFill, BsGearFill } from "react-icons/bs";
+import { FaFire, FaHome } from "react-icons/fa";
+// import { ObjectType } from "typescript";
 
 const SideBar: React.FC = () => {
   return (
     <div className="fixed top-0 left-0 flex flex-col w-16 h-screen mr-5 shadow-lg bg-primary text-secondary">
       <Link to="/"> 
-        <SideBarIcon icon={<FaFire size="28" />} text="Home" />
+        <SideBarIcon icon={<FaHome size="28" />} text="Home" />
+      </Link>
+      <Link to="/chat">
+        <SideBarIcon icon={<BsChatDotsFill size="28" />} text="chat" />
       </Link>
       <Link to="/calculator">
-        <SideBarIcon icon={<BsPlus size="28" />} text="Calculator" />
+        <SideBarIcon icon={<FaFire size="28" />} text="Calculator" />
       </Link>
       <Link to="/todo">
         <SideBarIcon icon={<BsFillLightningFill size="28" />} text="Todo" />
       </Link>
-      <Link to="/Counter">
-        <SideBarIcon icon={<BsGearFill size="28" />}  text="Counter"/>
+      <div className="flex justify-center py-4 border-b border-green-400"></div>
+      <Link to="/settings">
+        <SideBarIcon icon={<BsGearFill size="28" />}  text="Settings"/>
       </Link>
     </div>
   );
