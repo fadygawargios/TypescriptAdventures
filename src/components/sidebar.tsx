@@ -19,7 +19,7 @@ const SideBar: React.FC = () => {
       <Link to="/todo">
         <SideBarIcon icon={<BsFillLightningFill size="28" />} text="Todo" />
       </Link>
-      <div className="flex justify-center py-4 border-b border-green-400"></div>
+      <div className="border-[2px] my-2 border-neutral-500 rounded-sm"></div>
       <Link to="/settings">
         <SideBarIcon icon={<BsGearFill size="28" />}  text="Settings"/>
       </Link>
