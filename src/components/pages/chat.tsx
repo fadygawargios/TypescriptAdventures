@@ -1,13 +1,16 @@
 import React from "react";
 import ContentContainer from "../contentcontainer";
+import Input from "../input";
 
 // should take children components
-const Home: React.FC = () => {
+const Chat: React.FC = () => {
   return (
     <>
-      <ContentContainer/>
+    <ContentContainer> 
+      <Input/>
+    </ContentContainer>
     </>
   );
 };
 
-export default Home;
+export default Chat;

@@ -2,7 +2,7 @@ import React from "react";
 import ContentContainer from "../contentcontainer";
 
 // should take children components
-const Home: React.FC = () => {
+const Settings: React.FC = () => {
   return (
     <>
       <ContentContainer/>
@@ -10,4 +10,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Settings;

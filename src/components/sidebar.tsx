@@ -12,7 +12,7 @@ const SideBar: React.FC = () => {
         <SideBarIcon icon={<TiHome size="28" />} text="Home" />
       </Link>
       <Link to="/chat">
-        <SideBarIcon icon={<BsChatLeftTextFill size="23" />} text="chat" />
+        <SideBarIcon icon={<BsChatLeftTextFill size="23" />} text="Chat" />
       </Link>
       <Link to="/calculator">
         <SideBarIcon icon={<BsFillCalculatorFill size="25" />} text="Calculator" />
