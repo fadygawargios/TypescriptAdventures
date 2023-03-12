@@ -1,6 +1,6 @@
 import React from "react";
 import ContentContainer from "../contentcontainer";
-import Input from "../input";
+import Input from "../functions/input";
 
 // should take children components
 const Chat: React.FC = () => {
