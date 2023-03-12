@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 
-// should take children components
 const Input: React.FC = () => {
 
-  let [field, updateField] = useState("HELLO");
+  let [field, updateField] = useState("");
 
   return (
-    <div className="text-black">
-      <input type="text" placeholder="Send msg" value={field} onChange={(e) => updateField(field = e.target.value)}></input>
+    <div className="flex justify-center text-black">
+      <div className="absolute bottom-5">
+        <input type="text" placeholder="Send msg" value={field} onChange={(e) => updateField(field = e.target.value)}></input>
+      </div>
     </div>
   );
 };
