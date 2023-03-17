@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { BsChatLeftTextFill, BsFillLightningFill, BsFillCalculatorFill } from "react-icons/bs";
 import { TiHome } from "react-icons/ti";
 import { IoIosSettings } from "react-icons/io";
-// import { ObjectType } from "typescript";
+import { IconType } from "react-icons/lib";
 
 const SideBar: React.FC = () => {
   return (
@@ -28,7 +28,12 @@ const SideBar: React.FC = () => {
   );
 };
 
-const SideBarIcon = ({icon, text}: any) => (
+interface SidebarIconProps {
+  icon: any;
+  text: String;
+}
+
+const SideBarIcon: React.FC<SidebarIconProps> = ({icon, text}) => (
   <div className="sidebar-icon group">
     {icon}
 
