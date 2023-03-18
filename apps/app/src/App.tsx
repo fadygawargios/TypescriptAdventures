@@ -7,6 +7,7 @@ import Chat from "./components/pages/chat";
 // import Counter from "./components/functions/counter";
 
 function App() {
+  console.log(firebase)
   return (
 
     <div className="flex">

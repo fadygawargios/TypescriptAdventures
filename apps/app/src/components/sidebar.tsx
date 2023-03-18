@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import { BsChatLeftTextFill, BsFillLightningFill, BsFillCalculatorFill } from "react-icons/bs";
 import { TiHome } from "react-icons/ti";
 import { IoIosSettings } from "react-icons/io";
-import { IconType } from "react-icons/lib";
 
 const SideBar: React.FC = () => {
   return (
