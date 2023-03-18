@@ -1,4 +1,11 @@
 {
+  "name": "@typescriptadventures/root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "dependencies": {
     "firebase": "^9.18.0"
   }
